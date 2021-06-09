@@ -1,0 +1,311 @@
+<!DOCTYPE htlm>
+<html>
+<head></head>
+<body>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+<style>
+li {
+  display: inline;
+  margin-right: 10px;
+  }
+
+ ul {
+  list-style-type: none;
+  margin: -115px -30px 225px 0px;
+  padding: 0;
+  text-align: right;
+ }
+
+a:link {
+  color: #000000DE;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: right;
+  font-family: arial, sans-serif; 
+  font-size: 13px;
+}
+
+.material-icons-apps {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  left: 680px;
+  right: -50px;
+  top: -312px;
+  bottom: 225px;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+.material-icons-account {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  left: 700px;
+  right: -50px;
+  top: -312px;
+  bottom: 225px;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+body {
+    margin: 120px;
+    padding: 20px;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: center;
+  padding: 6px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 20px;
+  margin-top: 35px;
+  margin-right: 16px;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  font-size: 17px;
+  width: 550px;
+  height: 30px;
+
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+    
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+.material-icons-outlined {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  left: -560px;
+  top: 7px;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.material-icons-mic {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  left: -80px;
+  top: 7px;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+    
+
+button {
+    background-color: #F4F6F6;
+    border: none;
+    color: #222222;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    left: 30px;
+
+ }
+
+.footer {
+    font-size: 12px;
+    margin: 0 200px 0 0;
+    padding: 20px;
+    background-color: #F4F6F6;
+    text-align: left;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: inline-block;
+    margin-right: 12px;
+    writing-mode: horizontal-tb;
+    }
+.footer2 {
+    font-size: 12px;
+    margin: 0 0 0 980px;
+    padding: 20px;
+    background-color: #F4F6F6;
+    text-align: left;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: inline-block;
+    margin-right: 12px;
+    }    
+
+p {
+display: inline;
+margin-right: 12px;
+    }
+ 
+</style>
+
+
+
+
+
+
+
+<ul>
+  <li><a href="gmail.asp">Gmail</a></li>
+  <li><a href="images.asp">Imágenes</a></li>
+
+</ul>
+<span class="material-icons-apps">
+apps
+</span>
+<span class="material-icons-account">
+account_circle
+</span>
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+
+<div class="topnav">
+<input type="text" placeholder=""><span class="material-icons-outlined">
+search
+</span><span class="material-icons-mic">
+mic
+</span>
+
+</div> 
+
+
+
+<button> Busca con google </button>
+<button> Me siento con suerte </button>
+<div class="footer">
+<p> Argentina </p>
+<p> Sobre Google </p>
+<p> Publicidad </p>
+<p> Negocios </p>
+</div>
+
+<div class="footer2">
+<p> Privacidad </p>
+<p> Condiciones </p>
+<p> Preferencias </p>
+
+
+
+</div>
+</body>
+</html>
